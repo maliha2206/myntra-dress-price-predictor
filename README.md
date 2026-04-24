@@ -73,16 +73,22 @@ Built using **Python, Scikit-learn, XGBoost, and Streamlit**, this project demon
 ---
 
 ## ▶️ How to Run the Project
-1. Clone the repository
-git clone https://github.com/maliha-22/myntra-dress-price-predictor.git
-cd floral-dress-price-predictor
-2. Create virtual environment (recommended)
-python -m venv .venv
-.\.venv\Scripts\activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Run the app
-streamlit run app.py
+
+1. Clone the repository  
+git clone https://github.com/maliha-22/myntra-dress-price-predictor.git  
+
+2. Go to project folder  
+cd myntra-dress-price-predictor  
+
+3. Create virtual environment (recommended)  
+python -m venv .venv  
+.\.venv\Scripts\activate  
+
+4. Install dependencies  
+pip install -r requirements.txt  
+
+5. Run the app  
+streamlit run app.py  
 
 --- 
 
@@ -105,12 +111,12 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Authors
 
-**Maliha Mubeen**
-**Mariam Firdous**
-**Meharunnisa Begum**
-**Afia Refal**
+- Maliha Mubeen  
+- Mariam Firdous  
+- Meharunnisa Begum  
+- Afia Refal
 
 --- 
 
