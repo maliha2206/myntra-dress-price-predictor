@@ -1,0 +1,71 @@
+{
+    "model_name": "XGBoost (Default)",
+    "model_type": "XGBRegressor",
+    "training_date": "2026-04-23 17:49:45",
+    "dataset_shape": [
+        194,
+        24
+    ],
+    "features_used": [
+        "Color_Count",
+        "Rating_Score",
+        "Reviews_Count",
+        "Sizes_Count",
+        "Length_Code",
+        "Neck_Code",
+        "Shape_Code",
+        "Has_Pocket",
+        "Material_Code",
+        "Brand_Freq",
+        "Category_Encoded"
+    ],
+    "numerical_features": [
+        "Color_Count",
+        "Rating_Score",
+        "Reviews_Count",
+        "Sizes_Count",
+        "Length_Code",
+        "Neck_Code",
+        "Shape_Code",
+        "Has_Pocket",
+        "Material_Code",
+        "Brand_Freq"
+    ],
+    "categorical_features": [
+        "Category_Encoded"
+    ],
+    "target_variable": "Price",
+    "performance_metrics": {
+        "r2_score": 0.9406591057777405,
+        "rmse": 697.9504369939173,
+        "mae": 435.9971008300781
+    },
+    "best_hyperparameters": {
+        "learning_rate": 0.2,
+        "max_depth": 3,
+        "n_estimators": 200,
+        "subsample": 0.8
+    },
+    "feature_importance_top5": [
+        {
+            "Feature": "num__Material_Code",
+            "Importance": 0.26277071237564087
+        },
+        {
+            "Feature": "num__Brand_Freq",
+            "Importance": 0.21569600701332092
+        },
+        {
+            "Feature": "num__Sizes_Count",
+            "Importance": 0.157835453748703
+        },
+        {
+            "Feature": "num__Neck_Code",
+            "Importance": 0.12841838598251343
+        },
+        {
+            "Feature": "num__Rating_Score",
+            "Importance": 0.06379961222410202
+        }
+    ]
+}
