@@ -75,7 +75,7 @@ Built using **Python, Scikit-learn, XGBoost, and Streamlit**, this project demon
 ## ▶️ How to Run the Project
 
 1. Clone the repository  
-git clone https://github.com/maliha-22/myntra-dress-price-predictor.git  
+git clone https://github.com/maliha2206/myntra-dress-price-predictor.git  
 
 2. Go to project folder  
 cd myntra-dress-price-predictor  
